@@ -1,5 +1,7 @@
-n = int(input("Enter the number whose sum of you want to find: "))
-sum=0
-for i in range(1, n+1):
-    sum=sum+i
-    print("\nSum=", sum)
+n = int(input("Enter the number: "))
+p = int(input("Enter the power: "))
+
+result = n
+for i in range(1, p):
+    result = result * n
+print("\nResult =", result)
